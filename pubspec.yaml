@@ -1,0 +1,41 @@
+name: diario_de_humor
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^8.0.1
+  material_design_icons_flutter: ^5.0.6595
+  hive: ^2.0.5
+  hive_flutter: ^1.1.0
+  equatable: ^2.0.3
+  images_picker: ^1.2.10
+  path_provider: ^2.0.9
+  
+  flutter_native_splash: ^2.0.3+1
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/splash.png
+  android: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.2
+  build_runner: ^2.1.7
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+  uses-material-design: true
